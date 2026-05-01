@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Santiago Pest Control</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de Santiago Pest Control">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pagina-contacto">
+        <section class="titulo-pagina">
+            <h1>Contáctanos</h1>
+            <p>Estamos listos para ayudarte a proteger tu hogar o negocio.</p>
+        </section>
+
+        <section class="contenido-contacto">
+            <div class="info-contacto">
+                <h2>Información de contacto</h2>
+                <p><strong>Teléfono:</strong> 787-677-8845</p>
+                <p><strong>Correo electrónico:</strong> santiagopestcontrol1@gmail.com</p>
+                <p><strong>Horario:</strong> Lunes a Sábado, 8:00 AM - 5:00 PM</p>
+                <p><strong>Ubicación:</strong> Puerto Rico</p>
+
+                <h2>¿Por qué contactarnos?</h2>
+                <p>
+                    En Santiago Pest Control ofrecemos un servicio confiable, responsable
+                    y orientado a la seguridad de nuestros clientes. Atendemos problemas
+                    de plagas en hogares y negocios con seriedad y compromiso.
+                </p>
+            </div>
+
+            <div class="formulario-contacto">
+                <h2>Envíanos un mensaje</h2>
+
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="servicio">Servicio que le interesa:</label>
+                    <select id="servicio" name="servicio">
+                        <option>Control de cucarachas</option>
+                        <option>Control de hormigas</option>
+                        <option>Control de ratones</option>
+                        <option>Control de garrapatas</option>
+                        <option>Fumigación general</option>
+                    </select>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Santiago Pest Control. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
